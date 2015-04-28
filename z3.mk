@@ -50,3 +50,7 @@ $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk
 
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/z3/z3-vendor.mk)
+
+# Prebuilts    
+$(call inherit-product-if-exists, prebuilts/chromium/webview_prebuilt.mk)
+
