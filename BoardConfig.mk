@@ -42,3 +42,8 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 		ro.secure=0 \
 		ro.adb.secure=0 \
 
+# Multirom
+MR_DPI := xhdpi
+MR_DPI_FONT := 340
+MR_KEXEC_MEM_MIN := 0x80200000
+
